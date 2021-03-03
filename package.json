@@ -8,6 +8,7 @@
     "express-handlebars": "^5.2.1",
     "json": "^10.0.0",
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
     "package.json": "^2.0.1"
   },
   "devDependencies": {},

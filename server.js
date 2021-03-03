@@ -13,8 +13,8 @@ app.use(express.json());
 
 
 //Handlebars
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
+app.engine("exhbs", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "exhbs");
 
 //routes
 const routes = require("./controllers/burgers_controller.js");
