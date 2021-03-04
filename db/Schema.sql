@@ -8,3 +8,4 @@ CREATE TABLE burgers
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Martha#1';

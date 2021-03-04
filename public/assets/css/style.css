@@ -1,0 +1,32 @@
+body {
+    font-family: 'arial', cursive;
+    background-color: red
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url("../img/hamburger2.png");
+    color: white;
+    border: solid white 5px;
+    text-shadow: black 5px 5px 5px;
+}
+
+.burger-box {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: black 5px solid;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+li {
+    size: 30px;
+    margin: 5px;
+}
